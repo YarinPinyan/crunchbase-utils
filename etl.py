@@ -38,7 +38,7 @@ def download_crunchbase_file():
                 logger.info("Working on chunk: {0}".format(i))
                 f.write(chunk)
 
-def custom_function(df: pd.DataFrame)
+def custom_function(df: pd.DataFrame):
     """
     :param df: The dataframe created in the write_csvs_to_custom_dest
     :type pd.DataFrame
