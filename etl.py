@@ -44,8 +44,9 @@ def custom_function(df: pd.DataFrame)
     :type pd.DataFrame
 
     :returns: based on the user decision, the original usage of it is to upload objects to GBQ
-    :rtype: Union of all?
-    """
+    :rtype: Union of all?"""
+    pass
+    
 
 def write_csvs_to_custom_dest() -> Dataframe:
     shutil.unpack_archive(filename=FILE_NAME,
