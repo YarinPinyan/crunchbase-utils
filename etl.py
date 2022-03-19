@@ -59,7 +59,7 @@ def write_csvs_to_custom_dest() -> Dataframe:
         if table_name == 'organizations':
             csv_path = CRUNCHBASE_ORG_URL
 
-        logging.info("Working on table name {0} with the CSV path of: {1}".format(table_name,csv_path))
+        logger.info("Working on table name {0} with the CSV path of: {1}".format(table_name,csv_path))
 
         curr_df = pd.read_csv(csv_path)
         str_cols = curr_df.select_dtypes('object').columns
